@@ -4,7 +4,7 @@ const cheerio = require('cheerio');
 
 const app = express();
 const PORT = 8080;
-const SKILLS = ["attack", "fefence", "strength", "hitpoints", "prayer", "magic", "cooking", "woodcutting", "fletching", "fishing", "firemaking", "crafting", "smithing", "mining", "herblore", "agility", "thieving", "slayer", "farming", "runecraft", "hunter", "construction", "wintertodt"];
+const SKILLS = ["attack", "defence", "strength", "hitpoints", "prayer", "magic", "cooking", "woodcutting", "fletching", "fishing", "firemaking", "crafting", "smithing", "mining", "herblore", "agility", "thieving", "slayer", "farming", "runecraft", "hunter", "construction", "wintertodt"];
 
 app.listen(PORT);
 console.log(`API is running on port: ${PORT}`);
