@@ -44,7 +44,7 @@ The possible parameter values are:
 For example, endpoints and responses are as follows:
 
 Retrieve all skill stats for user *'zezima'*:
-`api/user/?u=zezima`
+`api/user/stats/?u=zezima`
 
 ```json
 {
@@ -60,7 +60,7 @@ Retrieve all skill stats for user *'zezima'*:
 ```
 
 Retrieve *'fishing'* skill stats for user *'zezima'*:
-`api/user/?u=zezima&s=fishing`
+`api/user/stats/?u=zezima&s=fishing`
 
 ```json
 {
