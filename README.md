@@ -5,8 +5,10 @@ RuneScape doesn't have an accessible public API to retreive player stats. They d
 
 Many websites ***somehow*** offer users the ability to enter their username, receive their stats, and utilize their game calculators, for example, [oldschool.tools](https://oldschool.tools/calculators/skill/fishing/).
 
+
 <br/>
-To achieve similar functionality, I've created an API running on [NodeJS](https://nodejs.org/) ([Express](https://www.npmjs.com/package/express/) ) and utilizing [Got](https://www.npmjs.com/package/got/), and [Cheerio](https://www.npmjs.com/package/cheerio/).
+
+To achieve similar functionality, I've created an API running on [NodeJS](https://nodejs.org/) ([Express](https://www.npmjs.com/package/express/)) and utilizing [Got](https://www.npmjs.com/package/got/), and [Cheerio](https://www.npmjs.com/package/cheerio/).
 
 - Got is an alternative HTTP request library to Request, which has been [deprecated as of February 2020](https://github.com/request/request/issues/3142/). 
 
